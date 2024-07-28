@@ -14,8 +14,8 @@ body {
 img {
     display: block;
     margin: auto;
+    border-radius: 8px;
 }
-
 
 .home {
     list-style-type: none;
