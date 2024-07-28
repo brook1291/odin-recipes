@@ -42,4 +42,12 @@ p {
     text-align: center;
 }
 
+@media (max-width: 600px) {
+    img {
+        width: 80%;
+    }
+}
 
+.leftpush {
+    margin-left: 20px;
+}
