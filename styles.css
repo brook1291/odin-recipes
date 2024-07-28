@@ -2,7 +2,7 @@ h1, h2 {
     font-family: Helvetica;
 }
 
-h1, desc {
+h1, .desc {
     text-align: center;
 }
 
@@ -38,11 +38,5 @@ p {
     text-align: center;
 }
 
-.center {
-    text-align: center;
-}
 
-ul, ol {
-    display: inline-block;
-    text-align: left;
-}
+
