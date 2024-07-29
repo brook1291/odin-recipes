@@ -44,10 +44,24 @@ p {
 
 @media (max-width: 600px) {
     img {
-        width: 80%;
+        width: 90%;
+        height: auto;
     }
+    p {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
 }
 
 .leftpush {
     margin-left: 20px;
+}
+
+ol li {
+    margin-bottom: 5px;
+}
+
+ul li {
+    margin-bottom: 2px;
 }
