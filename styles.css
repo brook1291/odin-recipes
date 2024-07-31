@@ -49,29 +49,20 @@ p {
     text-align: center;
 }
 
-@media (max-width: 600px) {
-    img {
-        width: 90%;
-        height: auto;
-    }
-    p {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-}
 
 .leftpush {
-    margin-left: 20px;
+    text-align: center;
 }
 
 ol li, ul li {
-    margin-bottom: 5px;
+    margin-bottom: 9px;
 }
 
 ul, ol {
     display: inline-block;
     text-align: left;
+    width: 40%;
+    margin: auto;
 }
 
 .center-list {
@@ -81,4 +72,19 @@ ul, ol {
 #gif {
     width: 300px;
     margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    img {
+        width: 80%;
+        height: auto;
+    }
+    p {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    ul, ol {
+        width: 80%;
+    }
 }
